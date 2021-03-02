@@ -1,0 +1,6 @@
+framework module Pods_Vivi_ViviUITests {
+  umbrella header "Pods-Vivi-ViviUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

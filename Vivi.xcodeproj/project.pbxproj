@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77AFB376CE012DCA9A3F2DCA /* Pods_Vivi_ViviUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783EE1995A521E9A59C36009 /* Pods_Vivi_ViviUITests.framework */; };
+		9A3CECA8B6DFC4ACDF340D00 /* Pods_ViviTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322B567FD101F5818564E31E /* Pods_ViviTests.framework */; };
+		B73C00B0E4AE3B8AB648B482 /* Pods_Vivi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1946E8817A62BB95B684063 /* Pods_Vivi.framework */; };
 		C39E987825EEAD4600012638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E987725EEAD4600012638 /* AppDelegate.swift */; };
 		C39E987A25EEAD4600012638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E987925EEAD4600012638 /* SceneDelegate.swift */; };
 		C39E987C25EEAD4600012638 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E987B25EEAD4600012638 /* ContentView.swift */; };
@@ -15,6 +18,10 @@
 		C39E988425EEAD4B00012638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39E988225EEAD4B00012638 /* LaunchScreen.storyboard */; };
 		C39E988F25EEAD4B00012638 /* ViviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E988E25EEAD4B00012638 /* ViviTests.swift */; };
 		C39E989A25EEAD4B00012638 /* ViviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E989925EEAD4B00012638 /* ViviUITests.swift */; };
+		C39E98AC25EEAF6F00012638 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = C39E98AB25EEAF6F00012638 /* SwiftPackageProductDependency */; };
+		C39E98B125EEAF8100012638 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E98B025EEAF8100012638 /* Model.swift */; };
+		C39E98B925EEAFB300012638 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E98B825EEAFB300012638 /* ViewModel.swift */; };
+		C39E98BF25EEB00000012638 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = C39E98BE25EEB00000012638 /* SwiftPackageProductDependency */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C698D948CF057388D46AED9 /* Pods-Vivi-ViviUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivi-ViviUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vivi-ViviUITests/Pods-Vivi-ViviUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D6FA7FC36674DA09B334753 /* Pods-Vivi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivi.release.xcconfig"; path = "Target Support Files/Pods-Vivi/Pods-Vivi.release.xcconfig"; sourceTree = "<group>"; };
+		322B567FD101F5818564E31E /* Pods_ViviTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViviTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		613538841F2B5B16886D006B /* Pods-Vivi-ViviUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivi-ViviUITests.release.xcconfig"; path = "Target Support Files/Pods-Vivi-ViviUITests/Pods-Vivi-ViviUITests.release.xcconfig"; sourceTree = "<group>"; };
+		783EE1995A521E9A59C36009 /* Pods_Vivi_ViviUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vivi_ViviUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F01563B9E810857389D202 /* Pods-ViviTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViviTests.release.xcconfig"; path = "Target Support Files/Pods-ViviTests/Pods-ViviTests.release.xcconfig"; sourceTree = "<group>"; };
+		A285106AD0F3BAE45AD75324 /* Pods-ViviTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViviTests.debug.xcconfig"; path = "Target Support Files/Pods-ViviTests/Pods-ViviTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9EE8EBD2A109EEC09C6C353 /* Pods-Vivi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vivi.debug.xcconfig"; path = "Target Support Files/Pods-Vivi/Pods-Vivi.debug.xcconfig"; sourceTree = "<group>"; };
 		C39E987425EEAD4600012638 /* Vivi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vivi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39E987725EEAD4600012638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C39E987925EEAD4600012638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		C39E989525EEAD4B00012638 /* ViviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39E989925EEAD4B00012638 /* ViviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViviUITests.swift; sourceTree = "<group>"; };
 		C39E989B25EEAD4B00012638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39E98B025EEAF8100012638 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C39E98B825EEAFB300012638 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F1946E8817A62BB95B684063 /* Pods_Vivi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vivi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39E98AC25EEAF6F00012638 /* BuildFile in Frameworks */,
+				C39E98BF25EEB00000012638 /* BuildFile in Frameworks */,
+				B73C00B0E4AE3B8AB648B482 /* Pods_Vivi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3CECA8B6DFC4ACDF340D00 /* Pods_ViviTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AFB376CE012DCA9A3F2DCA /* Pods_Vivi_ViviUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2006A0CD1D781DA2A215E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1946E8817A62BB95B684063 /* Pods_Vivi.framework */,
+				783EE1995A521E9A59C36009 /* Pods_Vivi_ViviUITests.framework */,
+				322B567FD101F5818564E31E /* Pods_ViviTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C39E986B25EEAD4600012638 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				C39E988D25EEAD4B00012638 /* ViviTests */,
 				C39E989825EEAD4B00012638 /* ViviUITests */,
 				C39E987525EEAD4600012638 /* Products */,
+				DA3227E713DAE5FF24BCA0DC /* Pods */,
+				0E2006A0CD1D781DA2A215E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +136,8 @@
 			children = (
 				C39E987725EEAD4600012638 /* AppDelegate.swift */,
 				C39E987925EEAD4600012638 /* SceneDelegate.swift */,
+				C39E98B025EEAF8100012638 /* Model.swift */,
+				C39E98B825EEAFB300012638 /* ViewModel.swift */,
 				C39E987B25EEAD4600012638 /* ContentView.swift */,
 				C39E987D25EEAD4B00012638 /* Assets.xcassets */,
 				C39E988225EEAD4B00012638 /* LaunchScreen.storyboard */,
@@ -136,6 +173,20 @@
 			path = ViviUITests;
 			sourceTree = "<group>";
 		};
+		DA3227E713DAE5FF24BCA0DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE8EBD2A109EEC09C6C353 /* Pods-Vivi.debug.xcconfig */,
+				1D6FA7FC36674DA09B334753 /* Pods-Vivi.release.xcconfig */,
+				0C698D948CF057388D46AED9 /* Pods-Vivi-ViviUITests.debug.xcconfig */,
+				613538841F2B5B16886D006B /* Pods-Vivi-ViviUITests.release.xcconfig */,
+				A285106AD0F3BAE45AD75324 /* Pods-ViviTests.debug.xcconfig */,
+				81F01563B9E810857389D202 /* Pods-ViviTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,15 +194,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39E989E25EEAD4B00012638 /* Build configuration list for PBXNativeTarget "Vivi" */;
 			buildPhases = (
+				784BB3F445FA234A88AFBF17 /* [CP] Check Pods Manifest.lock */,
 				C39E987025EEAD4600012638 /* Sources */,
 				C39E987125EEAD4600012638 /* Frameworks */,
 				C39E987225EEAD4600012638 /* Resources */,
+				F13C560794E601B8A8FB29F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Vivi;
+			packageProductDependencies = (
+				C39E98AB25EEAF6F00012638 /* SwiftPackageProductDependency */,
+				C39E98BE25EEB00000012638 /* SwiftPackageProductDependency */,
+			);
 			productName = Vivi;
 			productReference = C39E987425EEAD4600012638 /* Vivi.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39E98A125EEAD4B00012638 /* Build configuration list for PBXNativeTarget "ViviTests" */;
 			buildPhases = (
+				8C8B292D429315F444F58F82 /* [CP] Check Pods Manifest.lock */,
 				C39E988625EEAD4B00012638 /* Sources */,
 				C39E988725EEAD4B00012638 /* Frameworks */,
 				C39E988825EEAD4B00012638 /* Resources */,
@@ -178,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39E98A425EEAD4B00012638 /* Build configuration list for PBXNativeTarget "ViviUITests" */;
 			buildPhases = (
+				CD3F62EC56542F12B4B35510 /* [CP] Check Pods Manifest.lock */,
 				C39E989125EEAD4B00012638 /* Sources */,
 				C39E989225EEAD4B00012638 /* Frameworks */,
 				C39E989325EEAD4B00012638 /* Resources */,
+				6330BED00785A8CF88ACF915 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +283,10 @@
 				Base,
 			);
 			mainGroup = C39E986B25EEAD4600012638;
+			packageReferences = (
+				C39E98AA25EEAF6F00012638 /* RemoteSwiftPackageReference */,
+				C39E98BD25EEB00000012638 /* RemoteSwiftPackageReference */,
+			);
 			productRefGroup = C39E987525EEAD4600012638 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,14 +325,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6330BED00785A8CF88ACF915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vivi-ViviUITests/Pods-Vivi-ViviUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vivi-ViviUITests/Pods-Vivi-ViviUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vivi-ViviUITests/Pods-Vivi-ViviUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		784BB3F445FA234A88AFBF17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vivi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C8B292D429315F444F58F82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViviTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3F62EC56542F12B4B35510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vivi-ViviUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13C560794E601B8A8FB29F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vivi/Pods-Vivi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vivi/Pods-Vivi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vivi/Pods-Vivi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C39E987025EEAD4600012638 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39E98B925EEAFB300012638 /* ViewModel.swift in Sources */,
 				C39E987825EEAD4600012638 /* AppDelegate.swift in Sources */,
 				C39E987A25EEAD4600012638 /* SceneDelegate.swift in Sources */,
 				C39E987C25EEAD4600012638 /* ContentView.swift in Sources */,
+				C39E98B125EEAF8100012638 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +602,7 @@
 		};
 		C39E989F25EEAD4B00012638 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EE8EBD2A109EEC09C6C353 /* Pods-Vivi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +623,7 @@
 		};
 		C39E98A025EEAD4B00012638 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6FA7FC36674DA09B334753 /* Pods-Vivi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +644,7 @@
 		};
 		C39E98A225EEAD4B00012638 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A285106AD0F3BAE45AD75324 /* Pods-ViviTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +666,7 @@
 		};
 		C39E98A325EEAD4B00012638 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F01563B9E810857389D202 /* Pods-ViviTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +688,7 @@
 		};
 		C39E98A525EEAD4B00012638 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C698D948CF057388D46AED9 /* Pods-Vivi-ViviUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +708,7 @@
 		};
 		C39E98A625EEAD4B00012638 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613538841F2B5B16886D006B /* Pods-Vivi-ViviUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +766,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C39E98AA25EEAF6F00012638 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C39E98BD25EEB00000012638 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C39E98AB25EEAF6F00012638 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C39E98AA25EEAF6F00012638 /* RemoteSwiftPackageReference */;
+			productName = SwiftyJSON;
+		};
+		C39E98BE25EEB00000012638 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C39E98BD25EEB00000012638 /* RemoteSwiftPackageReference */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C39E986C25EEAD4600012638 /* Project object */;
 }
