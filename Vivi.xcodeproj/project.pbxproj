@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C39E987825EEAD4600012638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E987725EEAD4600012638 /* AppDelegate.swift */; };
+		C39E987A25EEAD4600012638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E987925EEAD4600012638 /* SceneDelegate.swift */; };
+		C39E987C25EEAD4600012638 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E987B25EEAD4600012638 /* ContentView.swift */; };
+		C39E987E25EEAD4B00012638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39E987D25EEAD4B00012638 /* Assets.xcassets */; };
+		C39E988125EEAD4B00012638 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39E988025EEAD4B00012638 /* Preview Assets.xcassets */; };
+		C39E988425EEAD4B00012638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39E988225EEAD4B00012638 /* LaunchScreen.storyboard */; };
+		C39E988F25EEAD4B00012638 /* ViviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E988E25EEAD4B00012638 /* ViviTests.swift */; };
+		C39E989A25EEAD4B00012638 /* ViviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E989925EEAD4B00012638 /* ViviUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C39E988B25EEAD4B00012638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39E986C25EEAD4600012638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39E987325EEAD4600012638;
+			remoteInfo = Vivi;
+		};
+		C39E989625EEAD4B00012638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39E986C25EEAD4600012638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39E987325EEAD4600012638;
+			remoteInfo = Vivi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C39E987425EEAD4600012638 /* Vivi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vivi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39E987725EEAD4600012638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C39E987925EEAD4600012638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C39E987B25EEAD4600012638 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C39E987D25EEAD4B00012638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C39E988025EEAD4B00012638 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C39E988325EEAD4B00012638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C39E988525EEAD4B00012638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39E988A25EEAD4B00012638 /* ViviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39E988E25EEAD4B00012638 /* ViviTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViviTests.swift; sourceTree = "<group>"; };
+		C39E989025EEAD4B00012638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39E989525EEAD4B00012638 /* ViviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39E989925EEAD4B00012638 /* ViviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViviUITests.swift; sourceTree = "<group>"; };
+		C39E989B25EEAD4B00012638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39E987125EEAD4600012638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39E988725EEAD4B00012638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39E989225EEAD4B00012638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39E986B25EEAD4600012638 = {
+			isa = PBXGroup;
+			children = (
+				C39E987625EEAD4600012638 /* Vivi */,
+				C39E988D25EEAD4B00012638 /* ViviTests */,
+				C39E989825EEAD4B00012638 /* ViviUITests */,
+				C39E987525EEAD4600012638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39E987525EEAD4600012638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39E987425EEAD4600012638 /* Vivi.app */,
+				C39E988A25EEAD4B00012638 /* ViviTests.xctest */,
+				C39E989525EEAD4B00012638 /* ViviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39E987625EEAD4600012638 /* Vivi */ = {
+			isa = PBXGroup;
+			children = (
+				C39E987725EEAD4600012638 /* AppDelegate.swift */,
+				C39E987925EEAD4600012638 /* SceneDelegate.swift */,
+				C39E987B25EEAD4600012638 /* ContentView.swift */,
+				C39E987D25EEAD4B00012638 /* Assets.xcassets */,
+				C39E988225EEAD4B00012638 /* LaunchScreen.storyboard */,
+				C39E988525EEAD4B00012638 /* Info.plist */,
+				C39E987F25EEAD4B00012638 /* Preview Content */,
+			);
+			path = Vivi;
+			sourceTree = "<group>";
+		};
+		C39E987F25EEAD4B00012638 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C39E988025EEAD4B00012638 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C39E988D25EEAD4B00012638 /* ViviTests */ = {
+			isa = PBXGroup;
+			children = (
+				C39E988E25EEAD4B00012638 /* ViviTests.swift */,
+				C39E989025EEAD4B00012638 /* Info.plist */,
+			);
+			path = ViviTests;
+			sourceTree = "<group>";
+		};
+		C39E989825EEAD4B00012638 /* ViviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C39E989925EEAD4B00012638 /* ViviUITests.swift */,
+				C39E989B25EEAD4B00012638 /* Info.plist */,
+			);
+			path = ViviUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39E987325EEAD4600012638 /* Vivi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39E989E25EEAD4B00012638 /* Build configuration list for PBXNativeTarget "Vivi" */;
+			buildPhases = (
+				C39E987025EEAD4600012638 /* Sources */,
+				C39E987125EEAD4600012638 /* Frameworks */,
+				C39E987225EEAD4600012638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vivi;
+			productName = Vivi;
+			productReference = C39E987425EEAD4600012638 /* Vivi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C39E988925EEAD4B00012638 /* ViviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39E98A125EEAD4B00012638 /* Build configuration list for PBXNativeTarget "ViviTests" */;
+			buildPhases = (
+				C39E988625EEAD4B00012638 /* Sources */,
+				C39E988725EEAD4B00012638 /* Frameworks */,
+				C39E988825EEAD4B00012638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C39E988C25EEAD4B00012638 /* PBXTargetDependency */,
+			);
+			name = ViviTests;
+			productName = ViviTests;
+			productReference = C39E988A25EEAD4B00012638 /* ViviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C39E989425EEAD4B00012638 /* ViviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39E98A425EEAD4B00012638 /* Build configuration list for PBXNativeTarget "ViviUITests" */;
+			buildPhases = (
+				C39E989125EEAD4B00012638 /* Sources */,
+				C39E989225EEAD4B00012638 /* Frameworks */,
+				C39E989325EEAD4B00012638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C39E989725EEAD4B00012638 /* PBXTargetDependency */,
+			);
+			name = ViviUITests;
+			productName = ViviUITests;
+			productReference = C39E989525EEAD4B00012638 /* ViviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39E986C25EEAD4600012638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C39E987325EEAD4600012638 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C39E988925EEAD4B00012638 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C39E987325EEAD4600012638;
+					};
+					C39E989425EEAD4B00012638 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C39E987325EEAD4600012638;
+					};
+				};
+			};
+			buildConfigurationList = C39E986F25EEAD4600012638 /* Build configuration list for PBXProject "Vivi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C39E986B25EEAD4600012638;
+			productRefGroup = C39E987525EEAD4600012638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39E987325EEAD4600012638 /* Vivi */,
+				C39E988925EEAD4B00012638 /* ViviTests */,
+				C39E989425EEAD4B00012638 /* ViviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39E987225EEAD4600012638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39E988425EEAD4B00012638 /* LaunchScreen.storyboard in Resources */,
+				C39E988125EEAD4B00012638 /* Preview Assets.xcassets in Resources */,
+				C39E987E25EEAD4B00012638 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39E988825EEAD4B00012638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39E989325EEAD4B00012638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39E987025EEAD4600012638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39E987825EEAD4600012638 /* AppDelegate.swift in Sources */,
+				C39E987A25EEAD4600012638 /* SceneDelegate.swift in Sources */,
+				C39E987C25EEAD4600012638 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39E988625EEAD4B00012638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39E988F25EEAD4B00012638 /* ViviTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39E989125EEAD4B00012638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39E989A25EEAD4B00012638 /* ViviUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C39E988C25EEAD4B00012638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C39E987325EEAD4600012638 /* Vivi */;
+			targetProxy = C39E988B25EEAD4B00012638 /* PBXContainerItemProxy */;
+		};
+		C39E989725EEAD4B00012638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C39E987325EEAD4600012638 /* Vivi */;
+			targetProxy = C39E989625EEAD4B00012638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C39E988225EEAD4B00012638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39E988325EEAD4B00012638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C39E989C25EEAD4B00012638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C39E989D25EEAD4B00012638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C39E989F25EEAD4B00012638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vivi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Vivi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.Vivi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C39E98A025EEAD4B00012638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vivi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Vivi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.Vivi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C39E98A225EEAD4B00012638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViviTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.ViviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vivi.app/Vivi";
+			};
+			name = Debug;
+		};
+		C39E98A325EEAD4B00012638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViviTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.ViviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vivi.app/Vivi";
+			};
+			name = Release;
+		};
+		C39E98A525EEAD4B00012638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.ViviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vivi;
+			};
+			name = Debug;
+		};
+		C39E98A625EEAD4B00012638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kp11.ViviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vivi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39E986F25EEAD4600012638 /* Build configuration list for PBXProject "Vivi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39E989C25EEAD4B00012638 /* Debug */,
+				C39E989D25EEAD4B00012638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39E989E25EEAD4B00012638 /* Build configuration list for PBXNativeTarget "Vivi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39E989F25EEAD4B00012638 /* Debug */,
+				C39E98A025EEAD4B00012638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39E98A125EEAD4B00012638 /* Build configuration list for PBXNativeTarget "ViviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39E98A225EEAD4B00012638 /* Debug */,
+				C39E98A325EEAD4B00012638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39E98A425EEAD4B00012638 /* Build configuration list for PBXNativeTarget "ViviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39E98A525EEAD4B00012638 /* Debug */,
+				C39E98A625EEAD4B00012638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39E986C25EEAD4600012638 /* Project object */;
+}
